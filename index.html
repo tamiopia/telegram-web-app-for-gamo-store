@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Mini App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .card {
+      background: #1c1c1c;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+    .card button {
+      padding: 10px 20px;
+      border: none;
+      background: #4caf50;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .card button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>AVAFIGHT</h2>
+    <p>New era of strategic games: Fight, Collect, Build your business.</p>
+    <button onclick="goAvafight()">Start AVAFIGHT</button>
+  </div>
+  <div class="card">
+    <h2>AVACOIN</h2>
+    <p>Marketplace, Staking, and Learn2Earn features at your fingertips.</p>
+    <button onclick="startAvacoin()">Start AVACOIN</button>
+  </div>
+
+  <script>
+    function goAvafight() {
+      alert("Starting AVAFIGHT...");
+      // Implement custom logic here
+    }
+    function startAvacoin() {
+      alert("Starting AVACOIN...");
+      // Implement custom logic here
+    }
+  </script>
+</body>
+</html>
